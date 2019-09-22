@@ -4,6 +4,8 @@
     # get-command -Module navcontainerhelper
 # list the functions in the module grouped into areas.    
     # Write-NavContainerHelperWelcomeText
+# update navcontainerhelper
+	# Update-Module navcontainerhelper
 
 # show all docker images
     # docker image ls
