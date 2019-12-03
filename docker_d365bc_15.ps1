@@ -11,4 +11,5 @@ New-BCContainer -accept_eula `
                 -auth NavUserPassword -Credential $credential `
                 -licenseFile $licenseFile `
                 -memoryLimit 4G `
+                -alwaysPull `
                 -includeAL
