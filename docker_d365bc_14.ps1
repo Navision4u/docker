@@ -2,7 +2,7 @@
 $containerName = "d365bc-14"
 $password = ConvertTo-SecureString -String "P@ssword1" -AsPlainText -Force
 $credential = New-Object PSCredential 'admin', $password
-$licenseFile = "C:\___n4u\licenses\n4u_365_14.flf"
+$licenseFile = "C:\___n4u\licenses\n4u_d365bc_14.flf"
 
 New-BCContainer -accept_eula `
                 -imageName $imageName `

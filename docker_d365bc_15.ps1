@@ -1,6 +1,6 @@
-﻿docker login "bcinsider.azurecr.io"
-$imageName = "bcinsider.azurecr.io/bconprem-master:na"
+﻿$imageName = "mcr.microsoft.com/businesscentral/onprem:na"
 $containerName = "d365bc-15"
+
 $password = ConvertTo-SecureString -String "P@ssword1" -AsPlainText -Force
 $credential = New-Object PSCredential 'admin', $password
 $licenseFile = "C:\___n4u\licenses\n4u_d365bc_15.flf"

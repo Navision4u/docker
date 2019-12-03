@@ -19,6 +19,8 @@
     # docker run --restart=always
 # start a container
     # docker container start [CONTAINER ID]
+# remove container
+    # docker container rm [CONTAINER ID]
 # start powershell on docker
     # docker exec -ti CONTAINER_ID powershell
 # copy file from host to docker container
