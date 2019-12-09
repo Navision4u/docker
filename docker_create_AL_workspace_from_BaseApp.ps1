@@ -1,10 +1,10 @@
-$ContainerName = 'container_name'
-$UserName = 'user_name'
-$Password = ConvertTo-SecureString 'password' -AsPlainText -Force
+$ContainerName = 'd365bc-15'
+$UserName = 'admin'
+$Password = ConvertTo-SecureString 'Password1' -AsPlainText -Force
 $Credential = New-Object System.Management.Automation.PSCredential ($UserName, $Password)
 
 Create-AlProjectFolderFromBcContainer `
     -containerName $ContainerName `
-    -alProjectFolder 'C:\___n4u\AL\BaseApp' `
+    -alProjectFolder 'C:\___n4u\AL\BaseApp\d365bc-15' `
     -useBaseAppProperties `
     -credential $Credential 
